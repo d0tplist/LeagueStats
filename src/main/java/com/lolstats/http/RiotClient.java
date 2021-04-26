@@ -34,6 +34,10 @@ public class RiotClient implements RiotApi {
         return get("liveclientdata/gamestats", GameStats.class);
     }
 
+    public void updateSummonerName() {
+        summoner = getSummonerName();
+    }
+
     @Nullable
     @Override
     public String getSummonerName() {

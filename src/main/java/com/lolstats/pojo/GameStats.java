@@ -1,6 +1,7 @@
 package com.lolstats.pojo;
 
 public class GameStats {
+
     private String gameMode;
     private double gameTime;
     private String mapName;
